@@ -15,6 +15,14 @@ class Index
         return "我是index模块index控制器test方法";
     }
 
+    public function test1(){
+        return "我是test1方法";
+    }
+
+    public function test2(){
+        return "我是test2方法";
+    }
+
     public function course(){
         echo input('id');
     }
@@ -23,7 +31,9 @@ class Index
         echo input('year').' '.input('month');
     }
 
-
+    public function dongtai(){
+        echo input('a').' '.input('b');
+    }
 
 
 

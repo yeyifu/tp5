@@ -32,4 +32,10 @@ Route::rule('time/:year/:month','index/index/time');
 //可选参数路由
 Route::rule('time/:year/[:month]','index/index/time');
 
+//完全匹配路由
+Route::rule('test1$','index/index/test1');
+
+//
+
+
 
